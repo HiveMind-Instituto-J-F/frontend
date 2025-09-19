@@ -1,0 +1,13 @@
+#features {
+    background-color: var(--laranja);
+}
+
+.iconbox {
+    width: 128px;
+    margin: 0;
+    padding: 0;
+}
+
+.iconbox>img {
+    background-color: var(--branco) !important;
+}
