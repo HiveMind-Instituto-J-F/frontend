@@ -54,7 +54,7 @@ a {
     font-style: normal;
 }
 
-button.inter {
+button.inter, input::placeholder {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
