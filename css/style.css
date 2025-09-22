@@ -38,7 +38,7 @@ header {
   /* Blur ↓ */
   background: transparent;
   backdrop-filter: blur(10px);
-  box-shadow: 0px 2px 20px -15px rgba(0, 0, 0, 0.205);
+  box-shadow: var(--weak-shadow);
 
   /* Posição absoluta ↓ */
   position: fixed;
