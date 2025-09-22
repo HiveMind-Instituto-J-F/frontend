@@ -1,0 +1,17 @@
+@import url(colors.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--petroleo-escuro);
+}
+
+#img {
+    flex: 1;
+    background-image: url('/img/background/login.png');
+    background-size: cover;
+    background-position: center;
+}
