@@ -1,0 +1,22 @@
+#ctaf {
+    margin: 0 !important;
+    padding: 160px 0px;
+    padding-bottom: 1200px;
+    background-image: url('../../img/background/cta.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#ctaf>* {
+    color: var(--preto);
+}
+
+#ctaf>:last-child {
+    margin-top: 60px;
+}
