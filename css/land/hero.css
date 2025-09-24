@@ -4,6 +4,13 @@
   color: var(--preto);
 }
 
+#hero {
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
 #background-img {
   margin: 0 !important;
   padding: 160px 0px;
@@ -20,12 +27,6 @@
 
 #hero>:nth-child(2) {
   margin-bottom: 24px;
-}
-
-#hero {
-  margin: 0 auto;
-  width: auto;
-  text-align: center;
 }
 
 #hero>* {
