@@ -1,7 +1,7 @@
 #ctaf {
     margin: 0 !important;
     padding: 160px 0px;
-    padding-bottom: 1200px;
+    padding-bottom: 800px;
     background-image: url('../../img/background/cta.jpg');
     background-size: cover;
     background-position: top;
@@ -17,6 +17,12 @@
     color: var(--preto);
 }
 
+#ctaf div {
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+
 #ctaf>:last-child {
-    margin-top: 60px;
+    margin-top: 52px;
 }
