@@ -1,5 +1,7 @@
+@import url('../variables.css');
+
 #ods>* {
-    color: var(--branco);
+    color: var(--white);
 }
 
 #ods>:first-child {
@@ -13,4 +15,37 @@
 
 #ods>:nth-child(2)>:nth-child(2) {
     margin-left: 50px;
+}
+
+#ods section {
+    width: 660px;
+}
+
+.ods {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    margin-bottom: 40px;
+    border-radius: var(--border-simple);
+}
+
+.ods img {
+    height: 80px;
+    width: auto;
+}
+
+#ods-7 {
+    background-color: #FBC412;
+}
+
+#ods-8 {
+    background-color: #A31C44;
+}
+
+#ods-9 {
+    background-color: #F26A2E;
+}
+
+#ods-12 {
+    background-color: #BF8D2C;
 }

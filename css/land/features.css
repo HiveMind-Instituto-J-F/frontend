@@ -1,5 +1,7 @@
+@import url('../variables.css');
+
 #features {
-    background-color: var(--laranja);
+    background-color: var(--orange);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,9 +17,8 @@
     margin: 0;
     padding: 8px;
     width: 32px;
-    border-radius: 4px;
+    border-radius: var(--border-medium);
 }
-
 
 #features section {
     display: flexbox;

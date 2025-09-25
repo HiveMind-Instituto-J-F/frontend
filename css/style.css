@@ -1,4 +1,4 @@
-@import url('colors.css');
+@import url('variables.css');
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: var(--petroleo-escuro);
+  background-color: var(--black-oil);
   overflow-x: hidden;
 }
 
@@ -19,7 +19,7 @@ img {
 }
 
 nav {
-  color: var(--preto);
+  color: var(--black);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@ header {
   margin: auto;
   padding: 15px 40px;
   width: 800px;
-  border-radius: 6px;
+  border-radius: var(--border-medium);
   
   /* Blur ↓ */
   background: transparent;
@@ -87,26 +87,23 @@ a, a:visited, a:hover, a:active {
 .button {
   border: 0;
   text-align: center;
-  background-color: var(--laranja) !important;
-  color: var(--branco) !important;
+  background-color: var(--orange) !important;
+  color: var(--white) !important;
+  border-radius: var(--border-small);
+  font-size: 10px;
 }
 
 /* Botão, variações de tamanho ↓ */
 button.small {
   padding: 8px 20px;
-  border-radius: 4px;
-  font-size: 10px;
 }
 
 button.medium {
   padding: 12px 48px;
-  border-radius: 4px;
-  font-size: 10px;
 }
 
 button.big {
   padding: 12px 60px;
-  border-radius: 4.5px;
 }
 
 #unset {
@@ -115,7 +112,7 @@ button.big {
 
 footer {
   display: flex;
-  color: var(--branco);
+  color: var(--polar);
   margin: 100px 200px;
   justify-content: center;
 }
@@ -126,7 +123,7 @@ footer>section {
 
 .block {
   display: flex;
-  border: 8px solid var(--laranja);
+  border: 8px solid var(--orange);
   margin: 0 auto;
   padding: 16px 0px;
   width: 240px;

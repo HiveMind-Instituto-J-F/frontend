@@ -1,3 +1,5 @@
+@import url('../variables.css');
+
 #target {
     margin: 0 auto;
     justify-content: center;
@@ -33,5 +35,5 @@
     object-fit: cover;
     width: 240px;
     height: 600px;
-    border-radius: 2px;
+    border-radius: var(--border-div);
 }
