@@ -1,7 +1,7 @@
-@import url('colors.css');
+@import url('../variables.css');
 
 #hero * {
-  color: var(--preto);
+  color: var(--black);
 }
 
 #hero {
