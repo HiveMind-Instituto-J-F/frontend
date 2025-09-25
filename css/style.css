@@ -125,6 +125,7 @@ footer>section {
   display: flex;
   border: 8px solid var(--orange);
   margin: 0 auto;
+  margin-bottom: 20px !important;
   padding: 16px 0px;
   width: 240px;
 }
