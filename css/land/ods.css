@@ -17,7 +17,7 @@
 }
 
 #ods section {
-    width: 660px;
+    width: 860px;
     margin-top: 50px;
 }
 
@@ -33,6 +33,7 @@
 .ods img {
     height: 80px;
     width: auto;
+    padding: 0px 60px;
 }
 
 #ods-7 {
