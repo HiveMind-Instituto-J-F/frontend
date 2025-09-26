@@ -20,11 +20,10 @@ img {
 }
 
 nav {
-  color: var(--black);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 350px;
+  width: 352px;
   user-select: none;
 }
 
@@ -36,6 +35,7 @@ header {
   padding: 15px 40px;
   width: 800px;
   border-radius: var(--border-medium);
+  color: var(--black);
   
   /* Blur ↓ */
   background: transparent;
@@ -113,15 +113,35 @@ button.big {
   margin: unset;
 }
 
-footer {
-  display: flex;
-  color: var(--polar);
-  margin: 100px 200px;
-  justify-content: center;
+footer>a, footer>p, footer>a>button {
+  width: 600px !important;
+  text-align: center;
 }
 
-footer>section {
-  margin: 0 80px;
+footer {
+  color: var(--polar) !important;
+  padding: 100px 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+footer>:nth-child(n) {
+  margin: 0 auto;
+}
+
+footer>a {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.icon {
+  width: var(--icon);
 }
 
 .block {
@@ -134,12 +154,18 @@ footer>section {
 }
 
 .arrow {
-  width: var(--icon-small) !important;
-  height: var(--icon-small) !important;
+  width: var(--icon) !important;
+  height: var(--icon) !important;
 }
 
 .toggle {
   background-color: transparent;
   border: 0;
   font-size: larger !important;
+}
+
+.medias {
+  width: 160px;
+  justify-content: space-around;
+  align-items: center;
 }
