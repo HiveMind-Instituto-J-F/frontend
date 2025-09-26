@@ -132,3 +132,14 @@ footer>section {
   padding: 16px 0px;
   width: 240px;
 }
+
+.arrow {
+  width: var(--icon-small) !important;
+  height: var(--icon-small) !important;
+}
+
+.toggle {
+  background-color: transparent;
+  border: 0;
+  font-size: larger !important;
+}
