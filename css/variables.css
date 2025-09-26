@@ -11,8 +11,7 @@
     --border-small: 4.5px;
     --border-simple: 2.5px;
 
-    --icon-medium: 32px;
-    --icon-small: 20px;
+    --icon: 32px;
 
     --weak-shadow: 0px 2px 20px -15px rgba(0, 0, 0, 0.205);
     --strong-shadow: 0px 4px 40px 5px rgba(0, 0, 0, 0.123);

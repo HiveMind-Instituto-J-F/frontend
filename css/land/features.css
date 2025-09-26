@@ -16,7 +16,7 @@
     background-color: var(--polar) !important;
     margin: 0;
     padding: 8px;
-    width: var(--icon-medium);
+    width: var(--icon);
     border-radius: var(--border-medium);
 }
 
