@@ -33,7 +33,7 @@ header {
   left: 150px;
   right: 150px;
   z-index: 1;
-  transition: transform 0.3s ease;
+  transition: transform 0.7s ease-in-out;
   
   display: flex;
   justify-content: space-between;
@@ -70,53 +70,6 @@ header a {
   font-size: 15px;
 }
 
-button {
-  cursor: pointer;
-  user-select: none;
-}
-
-a, a:visited, a:hover, a:active {
-  text-decoration: none !important;
-}
-
-#timelean {
-  background-color: transparent;
-  border: 0;
-}
-
-#timelean img {
-  width: 125px;
-  height: auto;
-}
-
-.button {
-  border: 0;
-  text-align: center;
-  background-color: var(--orange) !important;
-  color: var(--white) !important;
-  border-radius: var(--border-small);
-}
-
-/* Botão, variações de tamanho ↓ */
-button.small {
-  padding: 8px 20px;
-  font-size: 10px;
-}
-
-button.medium {
-  padding: 12px 48px;
-  font-size: 12px;
-}
-
-button.big {
-  padding: 12px 60px;
-  font-size: 12px;
-}
-
-#unset {
-  margin: unset;
-}
-
 footer {
   color: var(--polar) !important;
   padding: 100px 0;
@@ -127,6 +80,7 @@ footer {
 
 footer>p {
   text-align: center;
+  user-select: none;
 }
 
 footer>:nth-child(n) {
@@ -147,6 +101,52 @@ footer>a {
 
 #hivemind>img {
   width: 180px;
+}
+
+#timelean {
+  background-color: transparent;
+  border: 0;
+}
+
+#timelean img {
+  width: 125px;
+  height: auto;
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none !important;
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+}
+
+.button {
+  border: 0;
+  text-align: center;
+  background-color: var(--orange) !important;
+  color: var(--white) !important;
+  border-radius: var(--border-small);
+}
+
+button.small {
+  padding: 8px 20px;
+  font-size: 10px;
+}
+
+button.medium {
+  padding: 12px 48px;
+  font-size: 12px;
+}
+
+button.big {
+  padding: 12px 60px;
+  font-size: 12px;
+}
+
+#unset {
+  margin: unset;
 }
 
 .icon {
