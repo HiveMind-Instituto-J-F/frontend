@@ -133,26 +133,21 @@ button {
 }
 
 .button {
-  border: 0;
-  text-align: center;
   background-color: var(--orange) !important;
   color: var(--white) !important;
   border-radius: var(--border-small);
+  text-align: center;
+  border: 0;
 }
 
-button.small {
-  padding: 8px 20px;
-  font-size: 10px;
-}
-
-button.medium {
+.contact {
   padding: 12px 48px;
   font-size: 12px;
 }
 
-button.big {
-  padding: 12px 60px;
-  font-size: 12px;
+header>.contact {
+  padding: 8px 20px;
+  font-size: 10px;
 }
 
 #unset {
