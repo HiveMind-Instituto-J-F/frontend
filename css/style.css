@@ -53,7 +53,6 @@ header.hide {
   transform: translateY(-150%);
 }
 
-
 header>:first-child {
   width: 130px;
 }
@@ -155,6 +154,7 @@ header>.contact {
 }
 
 .icon {
+  display: block;
   width: var(--icon);
 }
 
@@ -182,4 +182,13 @@ header>.contact {
   width: 160px;
   justify-content: space-around;
   align-items: center;
+}
+
+.medias>a {
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.medias>a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
