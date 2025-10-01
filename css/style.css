@@ -30,39 +30,43 @@ nav {
 header {
   position: fixed;
   top: 30px;
-  left: 150px;
-  right: 150px;
+  left: 20vw;
+  right: 20vw;
+  max-width: 800px;
   z-index: 1;
-  transition: transform 0.7s ease-in-out;
   
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
   padding: 15px 40px;
-  width: 800px;
   
   background: transparent;
   backdrop-filter: blur(10px);
   box-shadow: var(--weak-shadow);
   border-radius: var(--border-medium);
   color: var(--black);
+  
+  transition: transform 0.7s ease-in-out;
 }
 
 header.hide {
   transform: translateY(-150%);
 }
 
-header>:first-child {
-  width: 130px;
-}
-
-header>:last-child {
+header>:first-child, header>:last-child {
   width: 130px;
 }
 
 header>nav {
-  margin: 0 auto;
+  width: auto;
+}
+
+header>nav>a {
+  text-align: center;
+}
+
+header>nav>a:nth-child(2) {
+  margin: 0 8vh;
 }
 
 header a {
@@ -126,17 +130,15 @@ a, a:visited, a:hover, a:active {
   text-decoration: none !important;
 }
 
-button {
-  cursor: pointer;
-  user-select: none;
-}
-
 .button {
   background-color: var(--orange) !important;
   color: var(--white) !important;
   border-radius: var(--border-small);
   text-align: center;
   border: 0;
+
+  cursor: pointer;
+  user-select: none;
 }
 
 .contact {
