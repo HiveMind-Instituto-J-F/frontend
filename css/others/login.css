@@ -6,11 +6,15 @@
 }
 
 body {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
     background-color: var(--black-oil);
     color: var(--polar);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #major {
@@ -20,7 +24,7 @@ body {
 }
 
 #form {
-    max-width: 400px;
+    max-width: 800px;
     padding: 0px 44px;
 }
 
