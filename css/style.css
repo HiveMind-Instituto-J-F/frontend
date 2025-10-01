@@ -49,7 +49,7 @@ header {
   
   /* .js ↓ */
   transition: transform 0.7s ease-in-out, opacity 0.5s ease-in-out;
-  opacity: 100%;
+  opacity: 1;
 }
 
 header.hide {
@@ -61,15 +61,11 @@ header>:first-child, header>:last-child {
   width: 130px;
 }
 
-header>nav {
-  width: auto;
-}
-
 header>nav>a, footer>nav>a {
   text-align: center;
 }
 
-header>nav>a:nth-child(2), footer>nav>a:nth-child(2) {
+header>nav>a:nth-child(2) {
   margin: 0 8vh;
 }
 
@@ -102,18 +98,22 @@ footer>a {
   align-items: center;
 }
 
-.float>a {
+.navbar {
+  width: fit-content;
+}
+
+.navbar>:nth-child(2) {
+  margin: 0 4vw;
+}
+
+.navbar>a {
   transition: transform 0.25s ease-in-out, opacity 0.4s ease;
   opacity: 100%;
 }
 
-.float>a:hover {
+.navbar>a:hover {
   transform: translateY(-3.5px);
   opacity: 75%;
-}
-
-footer>.float {
-  width: auto;
 }
 
 #hivemind {

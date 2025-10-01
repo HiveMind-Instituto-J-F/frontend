@@ -6,24 +6,28 @@
   clamp(<min>, <pref>, <max>);
   
   É utilizado para responsividade de caracteres
+  pref = recomendado o uso de "vw"
 */
 
 p {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: (1rem, calc(0.625vw + 1rem), 1.5rem);
 }
 
 h1 {
     /* font-size: 2rem; */
-    font-size: clamp(1rem, 2rem, 3rem);
-    line-height: 45px;
+    font-size: clamp(2rem, calc(1.25vw + 1rem), 3rem);
+    line-height: 1.35;
 }
 
 h2 {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
+    font-size: (1.25rem, calc(0.785vw + 1rem), 1.9rem);
 }
 
 h3 {
-    font-size: 1.15rem;
+    /* font-size: 1.15rem; */
+    font-size: (1.15rem, calc(0.715vw + 1rem), 1.7rem);
 }
 
 a {
