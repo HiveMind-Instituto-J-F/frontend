@@ -10,8 +10,8 @@ body {
   overflow-x: hidden;
 }
 
-body>div {
-  margin: 100px 0;
+body>* {
+  padding: var(--section-spacing);
 }
 
 img {
@@ -27,12 +27,27 @@ nav {
   user-select: none;
 }
 
-header {
+/*
+  O #wrap é necessário para evitar o conflito entre os transitions
+  ele atua como um container sobreposto ao header, assim evitando
+  o conflito (foi a única solução que achei)
+*/
+
+#wrap {
   position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   top: 30px;
-  left: 20vw;
-  right: 20vw;
   max-width: 800px;
+  width: 100%;
+}
+
+header {
+  /* position: fixed;
+  top: 30px;
+  right: 5vh;
+  left: 5vh;
+  max-width: 800px; */
   z-index: 1;
   
   display: flex;
@@ -103,7 +118,7 @@ footer>a {
 }
 
 .navbar>:nth-child(2) {
-  margin: 0 4vw;
+  margin: 0 var(--navbar);
 }
 
 .navbar>a {
@@ -149,6 +164,12 @@ a, a:visited, a:hover, a:active {
   cursor: pointer;
   user-select: none;
 }
+
+/*
+  A classe .contact é apenas um nome de diferenciação dos botões
+  utilizados no crud pra landing, no caso apenas suas medidas
+  de box
+*/
 
 .contact {
   padding: 12px 48px;
