@@ -45,5 +45,4 @@ build/
 .CODEOWNERS
 
 #dotenv
-src/main/webapp/WEB-INF/.env
-env
+.env
