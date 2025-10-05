@@ -37,23 +37,17 @@ nav {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  top: 30px;
-  max-width: 800px;
-  width: 100%;
+  top: 5vh;
+  width: max(450px, 100%);
+  max-width: fit-content;
 }
 
-header {
-  /* position: fixed;
-  top: 30px;
-  right: 5vh;
-  left: 5vh;
-  max-width: 800px; */
-  z-index: 1;
-  
+header {  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: min(2vh, 15px) 8vh;
+  z-index: 1;
   
   /* Blur ↓ */
   background: transparent;
@@ -73,7 +67,11 @@ header.hide {
 }
 
 header>:first-child, header>:last-child {
-  width: 130px;
+  width: clamp(110px, 8vw, 160px);
+}
+
+header>nav {
+  margin: 0 8vw;
 }
 
 header>nav>a, footer>nav>a {
@@ -82,10 +80,6 @@ header>nav>a, footer>nav>a {
 
 header>nav>a:nth-child(2) {
   margin: 0 8vh;
-}
-
-header a {
-  font-size: 15px;
 }
 
 footer {
