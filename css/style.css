@@ -49,16 +49,18 @@ header {
   padding: min(2vh, 15px) 8vh;
   z-index: 1;
   
-  /* Blur ↓ */
-  background: transparent;
-  backdrop-filter: blur(10px);
-  box-shadow: var(--weak-shadow);
-  border-radius: var(--border-medium);
-  color: var(--black);
-  
   /* .js ↓ */
   transition: transform 0.7s ease-in-out, opacity 0.5s ease-in-out;
   opacity: 1;
+}
+
+.blur {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: var(--weak-shadow);
+  border-radius: var(--border-medium);
+  border: 0;
 }
 
 header.hide {
@@ -71,6 +73,7 @@ header>:first-child, header>:last-child {
 }
 
 header>nav {
+  color: var(--black);
   margin: 0 8vw;
 }
 

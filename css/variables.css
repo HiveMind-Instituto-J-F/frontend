@@ -16,8 +16,8 @@
     /* Padronização de valores ↓ */
     --icon: 18px;
 
-    --weak-shadow: 0px 2px 20px -15px rgba(0, 0, 0, 0.210);
-    --strong-shadow: 0px 4px 40px 5px rgba(0, 0, 0, 0.120);
+    --weak-shadow: 0 4px 12px -8px rgba(0, 0, 0, 0.210);
+    --strong-shadow: 0 4px 40px 5px rgba(0, 0, 0, 0.120);
     --text-shadow:  0 10px 5px rgba(0, 0, 0, 0.250);
 
     --navbar: 4vw;
