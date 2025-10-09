@@ -24,8 +24,16 @@
   background-image: url('../../img/background/hero2.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: local;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+@media (max-width: 800px) {
+  #background-img {
+    background-size: 250vw;
+    background-position: top;
+  }
 }
 
 #hero>.container {
